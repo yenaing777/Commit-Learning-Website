@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Commit Online Education</title>
+    <!-- Bootstrap CDNJS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- FontAwesome CDNJS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Navigation Bar Start -->
+    <nav class="navbar navbar-expand-lg py-2 sticky-top text-center bg-light" data-aos="fade-down" data-aos-duration="1200">
+        <div class="container d-flex text-black px-2">
+            <div class="nav-logo"><a href="#" class="navbar-brand d-flex">Commit <div class="logo-dot"></div></a></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse py-2" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-1">
+                        <a href="#hero" class="nav-link fs-5">Find Passion</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="#catgories" class="nav-link fs-5">Categories</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="#skills" class="nav-link fs-5">Skills</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a href="#testmonial" class="nav-link fs-5">Customer</a>
+                    </li>
+                </ul>
+        
+                <ul class="navbar-nav d-flex align-items-center justify-content-center">
+                    <li class="nav-item">
+                        <a href="#loginOffcanvas" class="nav-link mx-2 fs-5" data-bs-toggle="offcanvas">Login</a>
+                    </li>
+        
+                    <li class="nav-item ms-3">
+                        <button type="button" class="btn btn-dark border-0 rounded-pill px-4 nav-button fs-5" href="#registerOffcanvas" class="nav-link mx-1" data-bs-toggle="offcanvas">Free Trial</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation Bar End -->
+
+    <!-- Hero Section Start -->
+    <section id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="hero-text col-lg-3">
+                    <div class="d-flex flex-column justify-content-center my-5" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <h2 class="hero-heading">Watch.</h2>
+                        <h2 class="hero-heading">Learn.</h2>
+                        <h2 class="hero-heading">Grow.</h2>
+                    </div>
+                    <div class="hero-input d-flex shadow" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="input-container">
+                            <input class="hero-textbox" id="heroInput" type="text" placeholder="Find your passion">
+                            <label class="placeholder-text" id="placeholder-text" for="heroInput">Find your passion</label>
+                        </div>
+                        <button class="hero-btn btn">Go</button>
+                    </div>
+                </div>
+                <div class="image-gallery col-lg-9 my-3"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="500">
+                    <div class="d-flex bordered-1 panel active" style="background-image: url('assets/images/image-1.jpg');">
+                        <div class="image-title d-flex flex-column">
+                            <h1 class="fs-5 text-center">Writing Course</h1>
+                            <span>100 Courses</span>
+                        </div>
+                    </div>
+            
+                    <div class="d-flex bordered-1 panel"
+                        style="background-image: url('assets/images/image-2.jpg');">
+                        <div class="image-title d-flex flex-column">
+                            <h1 class="fs-5 text-center">Development Course</h1>
+                            <span>50 Courses</span>
+                        </div>
+                    </div>
+            
+                    <div class="d-flex bordered-1 panel"
+                        style="background-image: url('assets/images/image-3.jpg');">
+                        <div class="image-title d-flex flex-column">
+                            <h1 class="fs-5 text-center">Business Course</h1>
+                            <span>35 Courses</span>
+                        </div>
+                    </div>              
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+
+    <!-- Cateogory Section Start -->
+    <section id="categories">
+        <div class="container my-4">
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="category-title title-text d-flex align-items-center justify-content-center" data-aos="fade-up"><p>Unlimited access to 100+ instructors</p></div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center mb-4" data-aos="fade-up">
+                <p class="right-skilltext text-center">Explore boundless knowledge with unlimited access to 100+ expert instructors. Elevate your learning journey with diverse perspectives and expertise.</p>
+            </div>
+            <div class="gallery-container d-flex align-items-center justify-content-center">
+                <div class="category-gallery row d-flex justify-content-center" id="category-gallery">
+                    <div class="category-card category-first col-lg-3 col-md-6 d-flex align-items-center flex-column">
+                        <div data-bs-target="#showModel" data-bs-toggle="modal">
+                            <img class="category-one category-image rounded-4 img-fluid object-fit-cover" src="assets/images/sales-marketing.jpg" alt="">
+                            <div class="category-content text-left py-3">
+                                <h4>Sales Marketing</h4>
+                                <span>4 months</span>
+                            </div>
+                            <div class="category-icon">
+                                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-card category-second col-lg-3 col-md-6 d-flex align-items-center flex-column">
+                        <div data-bs-target="#showModel" data-bs-toggle="modal">
+                            <img class="category-two category-image rounded-4 img-fluid object-fit-cover" src="assets/images/data-analysis.jpg" alt="">
+                            <div class="category-content text-left py-3">
+                                <h4>Data Analysis</h4>
+                                <span>3 months</span>
+                            </div>
+                            <div class="category-icon">
+                                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                            </div>
+                        </div>                  
+                    </div>
+                    <div class="category-card col-lg-3 col-md-6 d-flex align-items-center flex-column">
+                        <div data-bs-target="#showModel" data-bs-toggle="modal">
+                            <img class="category-three category-image rounded-4 img-fluid object-fit-cover" src="assets/images/copywriting.jpg" alt="">
+                            <div class="category-content text-left py-3">
+                                <h4>Copyrighting Pro</h4>
+                                <span>2 months</span>
+                            </div>
+                            <div class="category-icon">
+                                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-card category-fourth col-lg-3 col-md-6 d-flex align-items-center flex-column">
+                        <div data-bs-target="#showModel" data-bs-toggle="modal">
+                            <img class="category-four category-image rounded-4 img-fluid object-fit-cover" src="assets/images/digital-art.jpg" alt="">
+                            <div class="category-content text-left py-3">
+                                <h4>Digital Art</h4>
+                                <span>4 months</span>
+                            </div>
+                            <div class="category-icon">
+                                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                            </div>
+                       </div>                      
+                    </div>
+                </div>
+            </div>                
+        </div>
+    </section>
+    <!-- Cateogory Section End -->
+
+    <!-- Skill Section Start -->
+    <section id="skills">
+        <div class="container my-4">
+            <div class="row d-flex justify-content-between" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">            
+                    <div class="col-lg-4 fs-2" data-aos="fade-up">
+                        <p class="title-text left-skilltext">Get the skills you need for a job that is in demand.</p>
+                    </div>
+                    <div class="col-lg-8 d-flex justify-content-center">
+                        <p class="right-skilltext">The modern labor market dictates its own terms. Today, to be a competitive specialist requires more than professional skills.</p>
+                    </div>
+            </div>
+                
+            <div class="container row d-flex">
+                <div class="col-lg-4 col-md-12 fs-2 d-flex justify-content-center align-items-start">
+                    <div class="d-flex flex-column py-5" data-aos="fade-up"     data-aos-duration="1200">
+                        <div class="skill-lists">
+                            <div class="skill d-flex align-items-top justify-content-evenly mb-5">
+                                <div class="icon d-flex align-items-center justify-content-center bg-light shadow">
+                                    <img src="https://assets.website-files.com/617fa48948c7ab24b715140e/617fa550b1eff7681300db93_ico_skills-leadership.svg" alt="">         
+                                </div>                            
+                                <div class="content">
+                                    <h5>Leadership</h5>
+                                    <span>Fully committed to the success company</span>
+                                </div>
+                            </div>
+                            <div class="skills-line"></div>
+                        </div>
+                        <div class="skill-lists">
+                            <div class="skill d-flex align-items-top justify-content-evenly mb-5">
+                                <div class="icon d-flex align-items-center justify-content-center bg-light shadow">
+                                    <img src="https://assets.website-files.com/617fa48948c7ab24b715140e/617fa5500e03d92bc1747cb2_ico_skills-responsibility.svg" alt="">        
+                                </div>
+                                <div class="content">
+                                    <h5>Responsibility</h5>
+                                    <span>Employees will always be my top priority</span>
+                                </div>
+                            </div> 
+                            <div class="skills-line"></div>
+                        </div>
+                        <div class="skill-lists">
+                            <div class="skill d-flex align-items-top justify-content-evenly mb-5">
+                                <div class="icon d-flex align-items-center justify-content-center bg-light shadow">
+                                    <img src="https://assets.website-files.com/617fa48948c7ab24b715140e/617fa5500e03d92bc1747cb2_ico_skills-responsibility.svg" alt="">        
+                                </div>
+                                <div class="content">
+                                    <h5>Flexibility</h5>
+                                <span>The ability to switch is an important skill</span>
+                                </div>
+                            </div> 
+                        </div>                          
+                        <!-- <div class="skill d-flex align-items-top justify-content-evenly">
+                            <div class="icon d-flex align-items-center justify-content-center bg-light shadow">
+                                <img src="https://assets.website-files.com/617fa48948c7ab24b715140e/617fa5506ec5691cba88bb5b_ico_skills-flexibility.svg" alt="">         
+                            </div>
+                            <div class="content">
+                                <h5>Flexibility</h5>
+                                <span>The ability to switch is an important skill</span>
+                            </div>
+                        </div>                           -->
+                    </div>
+                </div>                      
+                <div class="skill-video col-lg-8 col-md-12 d-flex justify-content-center rounded-4 bg-light shadow mt-lg-0 mt-sm-4 ">
+                    <div class="d-flex align-items-center justify-content-center bg-dark">
+                        <div class="video-description row d-flex flex-wrap align-items-center justify-content-center flex-wrap overflow-hidden" data-aos="fade-down"     data-aos-duration="1500">
+                            <div class="col-lg-5 d-flex align-items-center justify-content-center">
+                                <span class="description-text me-3 fw-bold ms-4">10</span>
+                                <div class="d-flex flex-column py-2">
+                                    <span class="text-uppercase">Years</span>
+                                    <span class="text-uppercase">experiences</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 d-flex align-items-center justify-content-center">
+                                <div class="description-seperator"></div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                                <span class="description-text me-3 fw-bold">250</span>
+                                <div class="d-flex flex-column">
+                                    <span class="text-uppercase">types of</span>
+                                    <span class="text-uppercase"> courses</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <video class="w-100" id="video-display" src="assets/videos/teaching-video.mp4" muted autoplay></video>
+                            <div class="play-button" id="play-button">
+                                <i class="fa-solid fa-pause"></i>
+                            </div>
+                        </div>                           
+                    </div>
+                </div>
+            </div>   
+            
+        </div>
+    </section>
+    <!-- Skill Section End -->
+
+    <!-- Review Section Start -->
+    <section id="reviews">
+        <div class="container-fluid d-flex justify-content-center flex-column" data-aos="fade-up"  data-aos-duration="1500">
+            <div class="container d-flex justify-content-center  my-4">
+                <div class="category-title title-text d-flex align-items-center justify-content-center"><p>What our customer say</p></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="slider-container">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide row d-flex p-2">
+                                    <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
+                                        <div class="card-body shadow m-2">
+                                            <p class="card-text">The explanations are clear, the teachers are responsible and friendly, and the homework is real practice.</p>
+                                            <div class="card-profile d-flex align-items-center justify-content-evenly">
+                                                <img class="user-image" src="assets/images/5.jpg" alt="">
+                                                <div class="profile-details">
+                                                    <h5>Mira Dudley</h5>
+                                                    <span>System Analyst</span>
+                                                </div>
+                                            </div>                        
+                                        </div>
+                                    </div>
+                                    <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card-body shadow m-2">
+                                            <p class="card-text">I learned a lot of new things, I immediately apply my knowledge in my work, found myself a new client.</p>
+                                            <div class="card-profile d-flex align-items-center justify-content-evenly">
+                                                <img class="user-image" src="assets/images/6.jpg" alt="">
+                                                <div class="profile-details">
+                                                    <h5>Nathan Villegas</h5>
+                                                    <span>Web Developer</span>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card-body shadow m-2">
+                                            <p class="card-text">I really like the speakers of the course and the quality of the lectures. There is always feedback.</p>
+                                            <div class="card-profile d-flex align-items-center justify-content-evenly">
+                                                <img class="user-image" src="assets/images/7.jpg" alt="">
+                                                <div class="profile-details">
+                                                    <h5>Quinn Mendoza</h5>
+                                                    <span>IT Coordinator</span>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card-body shadow m-2">
+                                            <p class="card-text">A new profession is a lot of vivid impressions. Today I was at the presentation of the local business.</p>
+                                            <div class="card-profile d-flex align-items-center justify-content-evenly">
+                                                <img class="user-image" src="assets/images/8.jpg" alt="">
+                                                <div class="profile-details">
+                                                    <h5>Reina Cordova</h5>
+                                                    <span>Data Scientist</span>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide row d-flex p-2">
+                                    <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card-body shadow m-2">
+                                            <p class="card-text">The course shows all the stages of the work of an SMM marketer. And also excellent practice.</p>
+                                            <div class="card-profile d-flex align-items-center justify-content-evenly">
+                                                <img class="user-image" src="assets/images/4.jpg" alt="">
+                                                <div class="profile-details">
+                                                    <h5>Lucy Li</h5>
+                                                    <span>Data Architect</span>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card-body shadow m-2">
+                                            <p class="card-text">On the course "Data Analyst in Python" everything is very interesting and informative, very detailed material.</p>
+                                            <div class="card-profile d-flex align-items-center justify-content-evenly">
+                                                <img class="user-image" src="assets/images/3.jpg" alt="">
+                                                <div class="profile-details">
+                                                    <h5>Amelia Sampson</h5>
+                                                    <span>Database Administrator</span>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card-body shadow m-2">
+                                            <p class="card-text">For several months I studied one of the most popular programming languages on the course "Java developer".</p>
+                                            <div class="card-profile d-flex align-items-center justify-content-evenly">
+                                                <img class="user-image" src="assets/images/2.jpg" alt="">
+                                                <div class="profile-details">
+                                                    <h5>Jocelyn Vance</h5>
+                                                    <span>IT Technician</span>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                    <div class="card col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                                        <div class="card-body shadow m-2">
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <div class="card-profile d-flex align-items-center justify-content-evenly">
+                                                <img class="user-image" src="assets/images/1.jpg" alt="">
+                                                <div class="profile-details">
+                                                    <h5>Nicole Harmon</h5>
+                                                    <span>Project Manager</span>
+                                                </div>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-buttons d-flex py-5">
+                            <div class="swiper-button button-prev">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </div>
+                            <div class="swiper-button button-next">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>  
+    </section>
+    <!-- Review Section End -->
+
+    <!-- Footer Section Start -->
+    <footer id="footer">
+        <div class="footer-container container d-flex flex-lg-row flex-md-column align-items-lg-top align-items-md-start align-items-sm-start justify-content-between py-3 ">
+            <div class="col-lg-2 col-md-6 footer-logo py-3">
+                <div class="category-title title-text d-flex align-items-center justify-content-centerfw-bold"><h2>Commit</h2></div>
+            </div>
+            <div class="col-lg-5 col-md-6 d-flex align-items-center justify-content-center py-3">
+                <div class="d-flex flex-column align-items-left justify-content-center">
+                    <a class="p-4 pt-0 fs-5" href="#hero">Find Passion</a>
+                    <a class="p-4 fs-5" href="#skills">Skills</a>
+                </div>
+                <div class="d-flex flex-column align-items-left justify-content-center">
+                    <a class="p-4 pt-0 fs-5" href="#categories">Categories</a>
+                    <a class="p-4 fs-5" href="#review">Customer</a>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 footer-menu d-flex align-items-center justify-content-end py-3">
+                <div class="w-100 footer-form d-flex flex-column justify-content-center align-items-lg-end align-items-center">
+                    <div>
+                        <div>
+                            <h5 class="mb-3 fs-5">Join our community</h5>
+                        </div>
+                        <div class="input-form d-flex">
+                            <input class="footer-input p-3 form-control shadow-none" type="email" placeholder="Enter your email">
+                            <button type="button" class="input-button btn-danger border-0 p-3">Go</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container">
+            <hr>
+        </div>
+        <div class="container d-flex flex-lg-row flex-column flex-lg-row align-items-center justify-content-between py-3">
+            <div class="copyrights d-flex align-items-center mb-2 m-lg-0">            
+                <div class="copyrights-image">
+                    <img class="copyright-logo" src="assets/images/logo-c.png" alt="">
+                </div>
+                <div class="copyrights-text">
+                    <span>&copy; 2023 YN Lab. All rights reserved</span>
+                </div>
+            </div>
+            <div class="social-buttons d-flex justify-content-evenly w-100 mb-2 m-lg-0">
+                <div class="social-button">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </div>
+                <div class="social-button">
+                    <i class="fa-brands fa-behance"></i>
+                </div>
+                <div class="social-button">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <a href="https://github.com/yenaing777">
+                    <div class="social-button">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                </a>
+                <div class="social-button">
+                    <i class="fa-brands fa-dribbble"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Footer Section End -->
+
+    <!-- Model Section Start -->
+    <div class="modal modal-lg fade" id="showModel" aria-hidden="true" aria-labelledby="showModelLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="showModelLabel">
+                <img class="model-image image-fluid" src="assets/images/model-thumbnail.jpg" alt="">
+              </h1>
+              <button type="button" class="btn-close close-model" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6 ms-auto">
+                            <h4>Subscribe to our newsletter</h4>
+                        </div>
+                        <div class="col-md-6 ms-auto">
+                            <p>Get weekly updates on the newest cloneable websites right in your mailbox.</p>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+            <div class="modal-footer">
+                <div class="model-container col-md-12 ms-auto">
+                    <input type="text" class=" form-control shadow-none" id="model-email" placeholder="Enter your Email">
+                    <button type="button" class="model-button btn"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <!-- Model Section End -->
+
+    <!-- End Text Section Start -->
+    <div class="footer-end d-flex align-items-center justify-content-center text-center">
+        <p class="footer-text pt-3 p-4 pb-0">❤️ <a class="footer-link" href="#">Like</a> & <a class="footer-link" href="#">Follow</a> from you. New free to use projects from us.</p>
+    </div>
+    <!-- End Text Section End -->
+
+
+     <!-- AOS JS -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+     </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: "auto",
+          spaceBetween: 0,
+          navigation: {
+            nextEl: ".button-next",
+            prevEl: ".button-prev",
+        },
+        });
+    </script>
+
+    <!-- JS Files -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
